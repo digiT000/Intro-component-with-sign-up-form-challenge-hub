@@ -1,0 +1,94 @@
+.main-container {
+    padding: 80px 24px;
+    background-image: url("images/bg-intro-mobile.png");
+    background-color: $Red;
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        .main-content {
+            text-align: center;
+            color: $white;
+            h1 {
+                font-size: 1.8rem;
+                letter-spacing: 1px;
+                line-height: 1.2;
+                font-weight: 700;
+            }
+            p {
+                font-size: 1rem;
+                margin-top: 24px;
+                font-weight: 400;
+            }
+        }
+        .main-form {
+            margin-top: 40px;
+            .try-it-free-btn {
+                width: 100%;
+                line-height: 1.6;
+                border: none;
+                background-color: $Blue;
+                color: $white;
+                border-radius: 16px;
+                span {
+                    display: inline-block;
+                    max-width: 180px;
+                    margin: 16px auto;
+                }
+            }
+            .form {
+                padding: 24px;
+                margin-top: 16px;
+                background-color: $white;
+                border-radius: 16px;
+                .margin-wrapper-input {
+                    margin-top: 16px;
+                }
+                .wrapper-input {
+                    .field-input {
+                        width: 100%;
+                        padding: 16px 16px;
+                        box-sizing: border-box;
+                        border: solid 0.8px $Grayish;
+                        border-radius: 8px;
+                        font-weight: 600;
+                        &:focus {
+                            outline: none;
+                            border: solid 2px;
+                            border-color: $Blue;
+                        }
+                    }
+                    .err-msg {
+                        float: right;
+                        font-size: 0.6rem;
+                        color: $Red;
+                        margin-top: 4px;
+                    }
+                }
+                .claim-btn {
+                    margin-top: 24px;
+                    width: 100%;
+                    padding: 16px 32px;
+                    font-size: 1rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    background-color: $Green;
+                    color: $white;
+                    border-radius: 16px;
+                    border: none;
+                }
+                p {
+                    margin: 8px auto 0 auto;
+                    max-width: 90%;
+                    text-align: center;
+                    font-size: 0.8rem;
+                    color: $Grayish;
+                }
+                a {
+                    text-decoration: none;
+                    color: $Red;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

@@ -1,1 +1,125 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-container {
+  padding: 80px 24px;
+  background-image: url("images/bg-intro-mobile.png");
+  background-color: #ff7a7a;
+}
+
+.main-container .main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-container .main-wrapper .main-content {
+  text-align: center;
+  color: #fff;
+}
+
+.main-container .main-wrapper .main-content h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.main-container .main-wrapper .main-content p {
+  font-size: 1rem;
+  margin-top: 24px;
+  font-weight: 400;
+}
+
+.main-container .main-wrapper .main-form {
+  margin-top: 40px;
+}
+
+.main-container .main-wrapper .main-form .try-it-free-btn {
+  width: 100%;
+  line-height: 1.6;
+  border: none;
+  background-color: #6055a5;
+  color: #fff;
+  border-radius: 16px;
+}
+
+.main-container .main-wrapper .main-form .try-it-free-btn span {
+  display: inline-block;
+  max-width: 180px;
+  margin: 16px auto;
+}
+
+.main-container .main-wrapper .main-form .form {
+  padding: 24px;
+  margin-top: 16px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.main-container .main-wrapper .main-form .form .margin-wrapper-input {
+  margin-top: 16px;
+}
+
+.main-container .main-wrapper .main-form .form .wrapper-input .field-input {
+  width: 100%;
+  padding: 16px 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: solid 0.8px #b9b6d3;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.main-container .main-wrapper .main-form .form .wrapper-input .field-input:focus {
+  outline: none;
+  border: solid 2px;
+  border-color: #6055a5;
+}
+
+.main-container .main-wrapper .main-form .form .wrapper-input .err-msg {
+  float: right;
+  font-size: 0.6rem;
+  color: #ff7a7a;
+  margin-top: 4px;
+}
+
+.main-container .main-wrapper .main-form .form .claim-btn {
+  margin-top: 24px;
+  width: 100%;
+  padding: 16px 32px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #38cc8c;
+  color: #fff;
+  border-radius: 16px;
+  border: none;
+}
+
+.main-container .main-wrapper .main-form .form p {
+  margin: 8px auto 0 auto;
+  max-width: 90%;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #b9b6d3;
+}
+
+.main-container .main-wrapper .main-form .form a {
+  text-decoration: none;
+  color: #ff7a7a;
+  font-weight: 700;
+}
+/*# sourceMappingURL=styles.css.map */
