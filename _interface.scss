@@ -41,9 +41,15 @@
                 background-color: $white;
                 border-radius: 16px;
                 .margin-wrapper-input {
-                    margin-top: 16px;
+                    margin-top: 36px;
                 }
                 .wrapper-input {
+                    position: relative;
+                    .err-icon {
+                        position: absolute;
+                        right: 8px;
+                        top: 12px;
+                    }
                     .field-input {
                         width: 100%;
                         padding: 16px 16px;
